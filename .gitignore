@@ -216,9 +216,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# MD files
-*.md
-
 # Project-specific ignores (keep backend/ and frontend/ visible in the repo)
 .DS_Store
 *.swp
