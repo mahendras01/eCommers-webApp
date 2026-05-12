@@ -7,7 +7,6 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-.Python
 build/
 develop-eggs/
 dist/
@@ -219,3 +218,34 @@ __marimo__/
 
 # MD files
 *.md
+
+# Project-specific ignores (keep backend/ and frontend/ visible in the repo)
+.DS_Store
+*.swp
+*.swo
+*.tmp
+
+# VS Code settings
+.vscode/
+
+# Node.js / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+frontend/.local/
+frontend/.env
+frontend/.env.*
+
+# Local databases and backups
+backend/*.sqlite3
+backend/*.db
+backend/*.db-journal
+backend/*.backup
+backend/*.backup.old
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
