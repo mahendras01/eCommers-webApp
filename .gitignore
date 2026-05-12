@@ -238,11 +238,11 @@ frontend/.env
 frontend/.env.*
 
 # Local databases and backups
-backend/*.sqlite3
-backend/*.db
-backend/*.db-journal
-backend/*.backup
-backend/*.backup.old
+**/*.sqlite3
+**/*.db
+**/*.db-journal
+**/*.backup
+**/*.backup.old
 
 # Logs
 *.log
